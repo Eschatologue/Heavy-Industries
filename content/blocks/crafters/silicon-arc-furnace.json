@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"name": "Silicon Arc Furnace",
+	"description": "Uses power and coal to rapidly reduce sand to silicon. Modern, clean, and very efficient",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 50,
+	"itemCapacity": 30,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "silicon", "amount": 10},
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 10},
+				{ "item" : "coal", "amount": 6}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 50},
+		{ "item": "silicon", "amount": 120 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.8
+}
+
