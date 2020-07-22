@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter",
+	"name": "Hydraulic Graphite Press",
+	"description": "Advanced version of the 'Multi-Press', Uses power and water pressure to rapidly compresses chunks of coal to graphite.",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"itemCapacity": 30,
+	"craftEffect": "dooropenlarge",
+	"outputItem": {"item": "graphite", "amount": 6},
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 6}
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.5
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "plastanium", "amount": 50},
+		{ "item": "graphite", "amount": 120 }
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.8
+}
+
