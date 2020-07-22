@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"name": "Electric Kiln",
+	"description": "Uses a lot of power to produce metaglass at a rapid quantity",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 45,
+	"itemCapacity": 30,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "metaglass", "amount": 10},
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 8},
+				{ "item" : "lead", "amount": 8}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 50},
+		{ "item": "metaglass", "amount": 120 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.8
+}
+
