@@ -2,8 +2,10 @@
 # Heavy Industries
 From the creator of **Heavy Armaments**, **Heavy Industries** is a mod aimed at expanding Mindustry production aspect featuring bigger, more efficient factories while staying true to the vanilla way of the game.
 
-## Disclaimer
-1. This mod is still in development and will be released on steam in near future
+Get it on :
+
+[<img src="https://github.com/ItzAlen/Heavy-Armaments/blob/master/Icons/Steam-Workshop%20200px.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2174331393)
+
 
 ## Software Used
 - **Inkscape** (For logo)
