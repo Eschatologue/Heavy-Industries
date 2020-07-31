@@ -13,7 +13,7 @@ const rotaryCompressor = extendContent(GenericCrafter, "rotary-compressor", {
     const entity = tile.ent();
     const f = Vars.tilesize;
     Draw.rect(this.bottomRegion, tile.drawx(), tile.drawy());
-    Draw.rect(this.rotatorRegion, tile.drawx() + 0 / f, tile.drawy() - 0 / f, entity.totalProgress * -5);
+    Draw.rect(this.rotatorRegion, tile.drawx() + 0 / f, tile.drawy() - 0 / f, entity.totalProgress * 2);
     Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
   },
 });
