@@ -1,33 +1,35 @@
 {
 	"type": "GenericSmelter",
 	"name": "Silicon Arc Furnace",
-	"description": "Uses power and coal to rapidly reduce sand to silicon. Modern, clean, and very efficient",
+	"description": "Modern, clean, and efficient. Uses the heat from molten slag to speed up silicon production",
 	"size": 4,
 	"hasPower": true,
-	"hasLiquids": false,
+	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 50,
-	"itemCapacity": 30,
-	"updateEffect": "smeltsmoke",
-	"outputItem": {"item": "silicon", "amount": 10},
+	"craftTime": 90,
+	"itemCapacity": 36,
+	"updateEffect": "blastsmoke",
+	"outputItem": {"item": "silicon", "amount": 12},
 	"consumes": {
-		"power": 5,
+		"power": 5.4,
 		"items": {
 			"items": [
 				{ "item": "sand", "amount": 10},
 				{ "item" : "coal", "amount": 6}
 			]
+		},
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.5
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 120 },
-		{ "item": "metaglass", "amount": 100 },
-		{ "item": "phase-fabric", "amount": 50},
-		{ "item": "silicon", "amount": 120 }
+		{ "item": "thorium", "amount": 240 },
+		{ "item": "titanium", "amount": 350 },
+		{ "item": "phase-fabric", "amount": 160},
+		{ "item": "silicon", "amount": 200 }
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.8
+	"research": "silicon-smelter"
 }
 

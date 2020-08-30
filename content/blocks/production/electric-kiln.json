@@ -1,33 +1,32 @@
 {
 	"type": "GenericSmelter",
-	"name": "Electric Kiln",
-	"description": "Uses a lot of power to produce metaglass at a rapid quantity",
+	"name": "Pyra-Electric Kiln",
+	"description": "Uses intense heat of burning pyratite to rapidly produce Metaglass",
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 45,
+	"craftTime": 90,
 	"itemCapacity": 30,
-	"updateEffect": "smeltsmoke",
-	"outputItem": {"item": "metaglass", "amount": 10},
+	"updateEffect": "ballfire",
+	"outputItem": {"item": "metaglass", "amount": 12},
 	"consumes": {
 		"power": 5,
 		"items": {
 			"items": [
 				{ "item": "sand", "amount": 8},
-				{ "item" : "lead", "amount": 8}
+				{ "item" : "lead", "amount": 8},
+				{ "item": "pyratite", "amount": 4}
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 120 },
-		{ "item": "metaglass", "amount": 100 },
-		{ "item": "phase-fabric", "amount": 50},
-		{ "item": "metaglass", "amount": 120 }
+		{ "item": "thorium", "amount": 220 },
+		{ "item": "titanium", "amount": 350 },
+		{ "item": "phase-fabric", "amount": 120},
+		{ "item": "metaglass", "amount": 220 }
 	],
 	"category": "crafting",
-	"research": "kiln",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.8
+	"research": "kiln"
 }
 
