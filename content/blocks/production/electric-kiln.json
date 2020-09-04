@@ -9,7 +9,9 @@
 	"hasItems": true,
 	"craftTime": 90,
 	"itemCapacity": 30,
+	"buildCostMultiplier" : 0.6,	
 	"updateEffect": "ballfire",
+	"craftEffect": "blastsmoke",
 	"outputItem": {"item": "metaglass", "amount": 12},
 	"consumes": {
 		"power": 5,

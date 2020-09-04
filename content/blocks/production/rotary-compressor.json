@@ -9,6 +9,7 @@
 	"craftTime": 75,
 	"itemCapacity": 30,
 	"liquidCapacity" : 500,
+	"buildCostMultiplier" : 0.6,	
 	"craftEffect": "formsmoke",
 	"updateEffect" : "plasticburn",
 	"outputItem": {"item": "plastanium", "amount": 6},

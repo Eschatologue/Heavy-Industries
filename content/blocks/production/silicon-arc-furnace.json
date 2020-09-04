@@ -9,10 +9,12 @@
 	"hasItems": true,
 	"craftTime": 90,
 	"itemCapacity": 36,
+	"buildCostMultiplier" : 0.6,
+	"craftEffect": "hitLaser",	
 	"updateEffect": "blastsmoke",
 	"outputItem": {"item": "silicon", "amount": 12},
 	"consumes": {
-		"power": 5.4,
+		"power": 5,
 		"items": {
 			"items": [
 				{ "item": "sand", "amount": 10},
