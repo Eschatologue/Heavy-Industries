@@ -12,7 +12,7 @@
 	"buildCostMultiplier" : 0.6,	
 	"craftEffect": "formsmoke",
 	"updateEffect" : "plasticburn",
-	"outputItem": {"item": "plastanium", "amount": 6},
+	"outputItem": {"item": "plastarium", "amount": 6},
 	"consumes": {
 		"power": 6.5,
 		"items": {
